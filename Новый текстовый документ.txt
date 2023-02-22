@@ -1,0 +1,19 @@
+python manage.py runserver
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+pip install -r req.txt
+
+python -m venv myvenv      ----  создание виртуального окружения
+venv\Scripts\activate      ----  запуск виртуального окружения
+
+12 ОК
+
+python manage.py createsuperuser  --- создать пользователя
+
+
+python manage.py collectstatic
+---yes
+
