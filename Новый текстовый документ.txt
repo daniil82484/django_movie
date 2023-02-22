@@ -9,7 +9,7 @@ pip install -r req.txt
 python -m venv myvenv      ----  создание виртуального окружения
 venv\Scripts\activate      ----  запуск виртуального окружения
 
-12 ОК
+
 
 python manage.py createsuperuser  --- создать пользователя
 
