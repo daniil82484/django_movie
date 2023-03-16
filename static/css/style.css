@@ -914,7 +914,12 @@ ul.w3layouts-box-list li {
 }
 
 .desc1-left {
+    padding: 0;
     border: 1px solid #ddd;
+}
+
+.desc1-left img{
+    width: 100%;
 }
 
 .desc1-right h3 {
