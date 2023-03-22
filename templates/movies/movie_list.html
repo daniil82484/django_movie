@@ -4,6 +4,7 @@
 {% block movie %}
     <div class="left-ads-display col-lg-9">
         <div class="row">
+            {{movie}}
             {% for movie in movie_list %}
                 <div class="col-md-4 product-men">
                     <div class="product-shoe-info editContent text-center mt-lg-4">
@@ -44,6 +45,7 @@
                     </div>
                 </div>
             {% endfor %}
+
         </div>
         <div class="grid-img-right mt-4 text-right bg bg1" >
             {% include 'include/pagination.html' %}
